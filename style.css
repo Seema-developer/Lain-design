@@ -1,0 +1,381 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+#outer{
+    background-color: grey;
+    width: 100%;
+}
+
+.main{
+    background-color: black;
+    color: white !important;
+    margin: 20px;
+}
+
+.navbar{
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0.6em 5em;
+}
+
+.logo{
+    font-size: 24px;
+    letter-spacing: 0.09em;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+/* hero section */
+.hero-section .star{
+   font-size: 16rem;
+   margin-left: 13rem;
+   text-shadow: 0 0 8px gold;
+   opacity: 0.1;
+   position: fixed;
+}
+
+.hero-section h1{
+    font-size: 8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    margin-top: 0;
+    padding: 0px 82px;
+}
+.hero-section #discover{
+    padding-left: 0.8em;
+}
+.hero-section #elegance{
+    padding-left: 1.5rem;
+}
+
+/* product section */
+#product-section h1{
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    padding-top: 6rem;
+}
+
+#product-section h1 img{
+    width: 100px;
+}
+
+/* navbar */
+.product-nav a, #product-filter,.menu, #filter{
+    line-height: 1rem;
+    text-transform: uppercase;
+    color: rgb(158, 158, 158);
+}
+.menu a{
+    color: rgba(160, 160, 160, 0.8);
+}
+button{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid rgba(240, 248, 255, 0.8);
+    cursor: pointer;
+}
+select{
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+.product-nav a{
+    padding: 10px;
+}
+.product-nav a:hover{
+     border: 1px solid rgba(240, 248, 255, 0.8);
+}
+
+/* cards */
+
+#cards{
+    padding: 0;
+    margin-top: 100px;
+}
+
+.products-row1, .products-row3, .mensWear{
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.card, .items, #lookBook p{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.09rem;
+    line-height: 10px;
+}
+.card img{
+    width: 380px;
+    height: 400px;
+}
+/* .card, .items, #lookBook p{
+    letter-spacing: 0.09rem;
+    line-height: 10px;
+} */
+.card span, .items span{
+    color: rgba(240, 248, 255, 0.8);
+}
+
+.grid-container{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 2fr repeat(2, 1fr);
+    grid-template-rows: 370px 300px;
+    column-gap: 25px;
+    row-gap: 15%;
+    padding: 0.6em 5em;
+
+}
+
+.item1{
+    grid-row: span 2;
+}
+.items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+/* products-row4 */
+#card3 img{
+    width: 630px;
+    height: 346px;
+}
+
+.new-arrivals-list h1{
+    margin-top: 0;
+}
+
+#lookBook h1{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.mensWear img{
+    width: 635px;
+    height: 500px;
+}
+
+.spring p, .fall p{
+    font-size: 1.4rem;
+    transform: scaleX(1.9);
+    font-weight: bold;
+    letter-spacing: 0;
+}
+
+/* Explore More button */
+.exploreMore, .subscribe-btn{
+    color: white;
+    display: block;
+    margin: 45px auto; 
+    text-transform: uppercase;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 170px;
+    padding-top: 50px;
+    justify-content: space-evenly;
+    background-color: #171717;
+    width: 100%;
+    height: auto;
+    /* height: 320px; */
+    color: white;
+    text-transform: uppercase;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer p{
+    text-transform: uppercase;
+    letter-spacing: 0.09rem;
+    line-height: 10px;
+    color: rgba(199, 199, 199, 0.8);
+}
+
+footer span{
+    font-weight: bold;
+}
+.subscribe-form{
+    padding-top: 3rem;
+}
+.subscribe-btn{
+    margin-left: 0;
+    color:rgba(199, 199, 199, 0.8) ;
+}
+
+footer input{
+    background-color: transparent;
+    width: 100%;
+}
+footer label{
+    color:rgba(199, 199, 199, 0.8) ;
+}
+
+footer ul li{
+    list-style: none;
+    padding-top: 20px;
+    color: rgba(199, 199, 199, 0.8);
+}
+#getInTouch, #explore{
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+/* transform: scaleX(2); */
+
+
+
+
+
+
+
+/* media queries for responsiveness */
+
+@media (max-width: 590px) {
+    .hero-section h1{
+        margin-left: 2rem;
+    }
+}
+
+
+@media (min-width: 768px){
+
+    #product-section h1{
+        font-size: 4rem;
+    }
+
+#product-section h1 img{
+    width: 160px;
+    height: 45px;
+}
+
+}
+
+@media (max-width: 768px){
+    .main{
+        padding: 0.6em 2em;
+    }
+    .grid-container{
+        grid-template-columns: 1fr;
+        row-gap: 0;
+    }
+    .items{
+        width: 97%;
+        height: 70%;
+    }
+}
+
+@media(min-width: 769px){
+    .products-row1{
+        gap: 30px;
+    }
+    .card img{
+        width: 305px;
+        height: 350px;
+    }
+    .grid-container {
+        grid-template-columns: 2fr repeat(2, 1fr);
+        grid-template-rows: 180px 180px;
+        column-gap: 15px;
+        row-gap: 27%;
+    }
+    .items{
+        width: 100%;
+        height: 100%;
+    }
+}
+ 
+
+@media (max-width: 850px) {
+    .navbar{
+    padding: 0.6em 2em;
+    }
+    .secondStar{
+        display: none;
+    }
+    .hero-section h1{
+    font-size: 4rem;
+    }
+    .hero-section #elegance{
+    margin-left: 1rem;
+    }
+
+}
+
+@media (max-width: 950px) {
+    .secondStar{
+        display: none;
+    }
+    .hero-section #elegance{
+    padding-left: 3.5rem;
+    }
+
+}
+
+@media (min-width: 1024px){
+    .grid-container{
+        margin-top: 4rem;
+        display: grid;
+        grid-template-columns: 2fr repeat(2, 1fr);
+        grid-template-rows: 370px 300px;
+        column-gap: 25px;
+        row-gap: 15%;
+    }
+    .items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    }
+}
+
+@media (max-width: 1100px) {
+    .nav-items{
+        display: none;
+    }
+}
+@media (max-width:1127px) {
+    .product-nav a{
+        padding: 0;
+    }
+}
